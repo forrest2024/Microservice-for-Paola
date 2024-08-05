@@ -49,7 +49,7 @@ Once this JSON object is returned to the main program, it can be manipulated and
 
 
 <h1>UML Diagram</h1>
-![image](https://github.com/user-attachments/assets/09fb00fa-49b3-46e0-9cd7-ec54abff5796)
+![UML Diagram](https://github.com/user-attachments/assets/09fb00fa-49b3-46e0-9cd7-ec54abff5796)
 
 <h1>Mitigation Plan</h1>
 
