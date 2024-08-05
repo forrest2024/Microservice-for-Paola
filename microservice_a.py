@@ -16,7 +16,7 @@ import requests
 import zmq
 
 
-api_key = "34ca324945ebeca01725d6efefc7be43"
+api_key = ""
 context = zmq.Context()
 socket = context.socket(zmq.REP)
 socket.bind("tcp://localhost:5555")

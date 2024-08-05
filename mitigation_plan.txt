@@ -1,0 +1,27 @@
+A. For which teammate did you implement “Microservice A”?
+
+-I implemented Microservice A for Paola Cernada's Dice Roll application.
+
+B. What is the current status of the microservice? Hopefully, it’s done!
+
+-The microservice is fully implemented and works according to its specifications.
+
+C. If the microservice isn’t done, which parts aren’t done and when will they be done?
+
+-N/A. The microservice is done.
+
+D. How is your teammate going to access your microservice? Should they get your code from GitHub? Should they run your code locally? Is your microservice hosted somewhere? Etc.
+
+-The microservice code is available on GitHub. My GitHub username is forrest2024. My teammate should clone the repo and run the microservice locally.
+
+E. If your teammate cannot access/call YOUR microservice, what should they do? Can you be available to help them? What’s your availability?
+
+-My teammate should message me on Teams immediately if the microservice is not accessible/callable. I am available between 9-5 everyday.
+
+F. If your teammate cannot access/call your microservice, by when do they need to tell you?
+
+-They should contact me within 12 hours if they are unable to access/call the microservice.
+
+G. Is there anything else your teammate needs to know? Anything you’re worried about? Any assumptions you’re making? Any other mitigations / backup plans you want to mention or want to discuss with your teammate?
+
+-My teammate should be sure that no other microservices within their application are utilizing port 5555, or they should change the port within microservice A to fit with their architecture.
