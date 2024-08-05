@@ -42,7 +42,7 @@ Upon receipt of valid input, and provided the microservice is running and listen
 the main program depending on end user specifications. 
 
 Example output of the JSON object from the use of request_weather_data() above:
-```
+```python
 {'coord': {'lon': -122.6762, 'lat': 45.5234}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 81.37, 'feels_like': 81.5, 'temp_min': 77.58, 'temp_max': 83.98, 'pressure': 1015, 'humidity': 45, 'sea_level': 1015, 'grnd_level': 1005}, 'visibility': 10000, 'wind': {'speed': 3, 'deg': 315, 'gust': 5.01}, 'clouds': {'all': 0}, 'dt': 1722887412, 'sys': {'type': 2, 'id': 2005350, 'country': 'US', 'sunrise': 1722862798, 'sunset': 1722915198}, 'timezone': -25200, 'id': 5746545, 'name': 'Portland', 'cod': 200}
 ```
 Once this JSON object is returned to the main program, it can be manipulated and displayed however the end user desires. 
