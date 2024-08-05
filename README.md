@@ -2,7 +2,7 @@ Microservice A Weather Data Communication Contract
 
 This microservice utilizes ZeroMQ to request and receive data. 
 
-How to programatically request and receive data: 
+<h1> How to programatically request and receive data: </h1>
 
 1. First, install ZeroMQ: 
 ```
@@ -30,6 +30,17 @@ def request_weather_data():
 weather_data = request_weather_data()
 print(weather_data)
 ```
+
+Complete Example
+The request_weather_data() function will request and return a JSON object containing weather data for a user provided location. When called, the user will be prompted to enter a location like this:
+
+```
+Enter city name: 
+```
+Upon receipt of valid input, and provided the microservice is running and listening on the specified endpoint, the function will then return a JSON object which can be printed in whole, or parsed further within 
+the main program depending on end user specifications. 
+
+
 
 UML Diagram
 ![image](https://github.com/user-attachments/assets/09fb00fa-49b3-46e0-9cd7-ec54abff5796)
